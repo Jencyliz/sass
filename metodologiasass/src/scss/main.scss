@@ -1,0 +1,24 @@
+// 1. Abstracts
+@import './abstracts/variables';
+@import './abstracts/mixins';
+
+// 2. Vendors
+@import './vendors/normalize';
+
+// 3. Base
+@import './base/reset';
+@import './base/typography';
+
+// 4. Layout
+@import './layout/Header.vue';
+@import './layout/Footer.vue';
+
+// 5. Components
+@import '../components/Navbar.vue';
+
+// 6. Pages
+@import '../pages/Register.vue';
+@import '../pages/PostDetail.vue';
+
+// 7. Themes
+@import '../themes/default';
